@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Class Diagram" id="classDiagram">
+    <mxGraphModel dx="873" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RTXDIHDOYQJ6m8QGpSD2-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="sourcePoint" />
+            <mxPoint x="105" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-9" value="&amp;nbsp;User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="130" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-10" value="&lt;div&gt;&amp;nbsp;- id&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- email&lt;/div&gt;&lt;div&gt;&amp;nbsp;- password&lt;/div&gt;&lt;div&gt;&amp;nbsp;- fullName&lt;/div&gt;&lt;div&gt;&amp;nbsp;- banned&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-9">
+          <mxGeometry y="26" width="130" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-9">
+          <mxGeometry y="110" width="130" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-12" value="&lt;div&gt;&amp;nbsp;+register()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+login()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+logout()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+createPlaylist()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+listenToSong()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+searchSong()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+managePlaylist()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+viewSongRankings()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-9">
+          <mxGeometry y="118" width="130" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-13" value="Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-14" value="(inherits User)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-13">
+          <mxGeometry y="26" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-13">
+          <mxGeometry y="52" width="130" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-16" value="&lt;div&gt;&lt;div&gt;+login()&lt;/div&gt;&lt;div&gt;+logout()&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+manageSongs()&lt;/div&gt;&lt;div&gt;+manageUsers()&lt;/div&gt;&lt;div&gt;+viewSongRankings()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-13">
+          <mxGeometry y="60" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-17" value="Song" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="110" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-18" value="&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;- id&lt;/font&gt;&lt;/code&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;title&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;artist&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;composer&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;genre&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;url&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;imageUrl&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;r1&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;- r2&lt;/div&gt;&lt;div&gt;- r3&lt;/div&gt;&lt;div&gt;- r4&lt;/div&gt;&lt;div&gt;- r5&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-17">
+          <mxGeometry y="26" width="110" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-17">
+          <mxGeometry y="210" width="110" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-20" value="+&amp;nbsp;play()&lt;div&gt;+&amp;nbsp;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;getDetails()&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;getRatings()&lt;/code&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-17">
+          <mxGeometry y="218" width="110" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-23" value="Playlist" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-24" value="&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;- id&lt;/font&gt;&lt;/code&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;name&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;createdAt&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;userId&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;songId&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-23">
+          <mxGeometry y="26" width="120" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-23">
+          <mxGeometry y="110" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-26" value="&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;+ addSong()&lt;/font&gt;&lt;/code&gt;&lt;div&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;removeSong()&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;getSongs()&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&amp;nbsp;&lt;code&gt;rename()&lt;/code&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-23">
+          <mxGeometry y="118" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-27" value="Rating " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="120" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-28" value="&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;- songId&lt;/font&gt;&lt;/code&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;userId&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;-&amp;nbsp;&lt;code&gt;value&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-27">
+          <mxGeometry y="26" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-27">
+          <mxGeometry y="80" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-30" value="&lt;font face=&quot;Helvetica&quot;&gt;+ submitRating()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-27">
+          <mxGeometry y="88" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-31" value="AuthService " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-31">
+          <mxGeometry y="26" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-34" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;code&gt;+ signUp(email, password, fullName)&lt;/code&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;signIn(email, password)&lt;/code&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;signOut()&lt;/code&gt;, +&amp;nbsp;&lt;code&gt;getCurrentUser()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-31">
+          <mxGeometry y="34" width="250" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-35" value="FirestoreService " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-35">
+          <mxGeometry y="26" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RTXDIHDOYQJ6m8QGpSD2-38" value="&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;+ getUsers()&lt;/font&gt;&lt;/code&gt;&lt;div&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;getSongs()&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;getPlaylists()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;getRatings()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;addSong()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;updateSong()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;deleteSong()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;updateUserStatus()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;createPlaylist()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code&gt;updatePlaylist()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;+&amp;nbsp;&lt;code style=&quot;&quot;&gt;deletePlaylist()&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RTXDIHDOYQJ6m8QGpSD2-35">
+          <mxGeometry y="34" width="140" height="176" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+4/1/2025
+-làm lại sơ đồ
+- thêm admin( dk,dn,dx, ql bài hát)
+er
+- thêm role vào users để phân biệt admin và user
+- thêm r1 .. r5 ( đánh giá) song
+- ca sĩ, thể loại
+
+về làm login và logout database user ( firebase )
+
+id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary"
+
+var user = CreateUser();
+await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
+await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+var result = await _userManager.CreateAsync(user, Input.Password);
